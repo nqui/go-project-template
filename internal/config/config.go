@@ -5,7 +5,7 @@ import (
 	"github.com/gobuffalo/envy"
 )
 
-const defaultLogLevel log.Level = log.ErrorLevel
+const defaultLogLevel = log.ErrorLevel
 
 type Config struct {
 	logging Logging

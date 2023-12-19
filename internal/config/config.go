@@ -8,13 +8,7 @@ import (
 const defaultLogLevel log.Level = log.ErrorLevel
 
 type Config struct {
-	spotify Spotify
 	logging Logging
-}
-
-type Spotify struct {
-	ClientID     string
-	ClientSecret string
 }
 
 type Logging struct {
